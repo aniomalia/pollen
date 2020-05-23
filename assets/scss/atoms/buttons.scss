@@ -1,0 +1,34 @@
+a {
+    @include ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.a-button {
+    @include dark-frame;
+    padding: 4px 16px;
+    min-height: 55px;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: left;
+    display: inline-flex;
+    @include ease;
+
+    &::after {
+        content: ">";
+        margin-left: auto;
+    }
+
+    &:hover {
+        @include dark-frame-hover;
+    }
+}
+
+button,
+[type="submit"],
+[type="clear"],
+[type="reset"] {
+    @extend .a-button !optional;
+}

@@ -1,0 +1,24 @@
+.g-site {
+    padding: 48px 42px;
+    @include vgap(47px);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.g-main {
+    margin-bottom: auto;
+}
+
+.gap {
+    @include gap(42px, 47px);
+}
+.gap-s {
+    @include gap(18px);
+}
+
+.vgap {
+    @include vgap(42px);
+}
+.vgap-text {
+    @include vgap(12px);
+}

@@ -1,0 +1,13 @@
+$color-t: #343434;
+
+@mixin color-text {
+    color: $color-t;
+}
+
+@mixin dark-frame {
+    background-color: #333;
+    color: #eee;
+}
+@mixin dark-frame-hover {
+    background-color: #555;
+}

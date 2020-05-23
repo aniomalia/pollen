@@ -1,0 +1,8 @@
+$border: 1px solid $color-t;
+
+.deco-lines {
+    border: $border;
+    border-left: 0;
+    border-right: 0;
+    padding: 1em;
+}
