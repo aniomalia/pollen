@@ -9,9 +9,35 @@ Donec efficitur justo eget sapien congue, at imperdiet orci vestibulum.Lorem ips
 
 Curabitur in porta sapien, sit amet hendrerit neque.Fusce elementum leo mi, vel maximus purus ullamcorper nec.Fusce tempor non eros imperdiet posuere.Curabitur viverra congue magna, quis facilisis nibh dapibus vitae.Aenean rhoncus nisi metus, in fermentum nunc eleifend at.Aenean vulputate auctor volutpat.Ut eu scelerisque tellus, ac viverra ipsum.Donec viverra suscipit eleifend.Nullam laoreet tellus vitae libero rutrum, ullamcorper luctus ligula vulputate.Cras rutrum orci arcu.Integer nec dui vel dui finibus bibendum a in augue.In hac habitasse platea dictumst.Suspendisse eu leo a enim congue facilisis quis ut mi.Quisque vulputate, nibh ut congue fringilla, tellus quam efficitur mauris, vitae condimentum justo velit vitae diam.
 
-Maecenas lobortis massa eu lacus faucibus porttitor.Donec rutrum accumsan tortor, sed pretium arcu dictum fringilla.Pellentesque nec metus sed lacus viverra malesuada quis in lorem.Aenean aliquam a massa sed porta.Nulla.`
+Maecenas lobortis massa eu lacus faucibus porttitor.Donec rutrum accumsan tortor, sed pretium arcu dictum fringilla.Pellentesque nec metus sed lacus viverra malesuada quis in lorem.Aenean aliquam a massa sed porta.Nulla.`,
+        listUnordered: `<ul>
+    <li>Lorem</li>
+    <li>Ipsum</li>
+    <li>Dolor</li>
+</ul>`,
+        listOrdered: `<ol>
+    <li>Lorem</li>
+    <li>Ipsum</li>
+    <li>Dolor</li>
+</ol>`,
+        listMixed: `<ul>
+    <li>Lorem</li>
+    <li>Ipsum</li>
+    <li>Dolor</li>
+    <ol>
+        <li>Lorem</li>
+        <li>Ipsum</li>
+        <ul>
+            <li>Hey there</li>
+        </ul>
+        <li>Dolor</li>
+    </ol>
+    <li>Hey</li>
+</ul>
+`,
     },
     pollen: {
 
     }
 };
+

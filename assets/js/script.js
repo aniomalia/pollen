@@ -1,9 +1,31 @@
 
-document.querySelectorAll('.f-copy').forEach(el => {
+document.querySelectorAll('.f-copy:not(.has-overlay)').forEach(el => {
     el.addEventListener('click', () => {
         let source = el.dataset.source;
         let type = el.dataset.type;
         updateClipboard(copy[source][type]);
+    });
+});
+document.querySelectorAll('.f-copy.has-overlay').forEach(el => {
+    el.addEventListener('click', (e) => {
+        let target = e.target;
+        let source = el.dataset.source;
+        let type = target.dataset.type;
+        updateClipboard(copy[source][type]);
+    });
+});
+
+document.querySelectorAll('.f-copy').forEach(el => {
+    let label = el.querySelector('.f-copy-label');
+    el.querySelectorAll('.f-copy-overlays span').forEach(span => {
+        span.addEventListener('mouseenter', () => {
+            let newLabel = span.dataset.label;
+            label.innerText = newLabel;
+        });
+        span.addEventListener('mouseleave', () => {
+            let newLabel = label.dataset.label;
+            label.innerText = newLabel;
+        });
     });
 });
 
