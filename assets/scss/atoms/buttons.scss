@@ -14,6 +14,7 @@ a {
     font-size: 16px;
     text-align: left;
     display: inline-flex;
+    align-items: center;
     @include ease;
 
     &::after {
@@ -23,6 +24,18 @@ a {
 
     &:hover {
         @include dark-frame-hover;
+    }
+}
+
+a {
+    .a-button {
+        transition-duration: 0;
+    }
+    &:hover {
+        .a-button:hover {
+            opacity: 1;
+            background-color: #333;
+        }
     }
 }
 
