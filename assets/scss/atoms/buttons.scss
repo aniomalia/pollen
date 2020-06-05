@@ -39,9 +39,32 @@ a {
     }
 }
 
-button,
+button:not(.f-images),
 [type="submit"],
 [type="clear"],
 [type="reset"] {
     @extend .a-button !optional;
+}
+
+.f-images {
+    width: 100%;
+    position: relative;
+    &-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+    }
+    &-item {
+        flex: 1;
+    }
+    &:hover,
+    &:focus {
+        box-shadow: none;
+        .a-button {
+            @include dark-frame-hover;
+        }
+    }
 }

@@ -3,6 +3,10 @@
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
     display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: auto;
     position: fixed;
     top: 0;
@@ -23,6 +27,11 @@
     perspective: 500px;
     opacity: 0;
     pointer-events: none;
+    
+    span {
+        font-size: 16px;
+        margin-top: 7px;
+    }
 
     &.is-active {
         transform: translateY(0px) scale(1);
