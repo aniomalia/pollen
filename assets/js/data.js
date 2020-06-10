@@ -107,11 +107,46 @@ Nullam lobortis ac urna imperdiet venenatis. Nam quis malesuada tellus. Curabitu
         <li>Dolor</li>
     </ol>
     <li>Hey</li>
-</ul>
-`,
-    },
-    pollen: {
+</ul>`,
+        textParagraphs: `<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>`,
+        textHeadings: `<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>`,
+        textMixed: `<h1>Heading 1</h1>
+<p>Paragraph 1</p>
+<h2>Heading 2</h2>
+<p>Paragraph 1</p>
+<p>Paragraph 1</p>
+<h3>Heading 3</h3>
+<p>Paragraph 1</p>
+<p>Paragraph 1</p>
+<h4>Heading 4</h4>
+<p>Paragraph 1</p>
+<p>Paragraph 1</p>
+<h5>Heading 5</h5>
+<p>Paragraph 1</p>
+<p>Paragraph 1</p>
+<h6>Heading 6</h6>
+<p>Paragraph 1</p>
+<p>Paragraph 1</p>`,
+        form: `<form action="" method="post">
+    <label>
+        <span>Hey there</span>
+        <input type="text" placeholder="Your name" name="name">
+    </label>
+</form>`,
+        table: `<table>
+    <tr>
 
+    </tr>
+</table>`,
+        inline: `<span>span</span> <em>em</em> <strong>strong</strong> <del>del</del> <u>u</u>`,
+        code: `<pre>pre</pre>`,
     }
 };
 

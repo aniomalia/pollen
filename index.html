@@ -101,13 +101,43 @@
                         <div class="m-section-body">
                             <div class="l-grid gap-s of-4 of-12-phone-l">
                                 <div>
-                                    <button class="f-copy has-overlay" data-source="lorem" data-type="title">
+                                    <button class="f-copy has-overlay" data-source="lorem">
+                                        <span class="f-copy-label" data-label="Text">Text</span>
+                                        <span class="f-copy-overlays">
+                                            <span data-label="Paragraphs" data-type="textParagraphs"></span>
+                                            <span data-label="Headings" data-type="textHeadings"></span>
+                                            <span data-label="Mixed" data-type="textMixed"></span>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="f-copy" data-source="lorem" data-type="inline">
+                                        <span class="f-copy-label">Inline</span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="f-copy has-overlay" data-source="lorem">
                                         <span class="f-copy-label" data-label="List">List</span>
                                         <span class="f-copy-overlays">
-                                            <span data-label="&lt;ul&gt;" data-type="listUnordered"></span>
-                                            <span data-label="&lt;ol&gt;" data-type="listOrdered"></span>
+                                            <span data-label="Bullets" data-type="listUnordered"></span>
+                                            <span data-label="Numbered" data-type="listOrdered"></span>
                                             <span data-label="Mixed" data-type="listMixed"></span>
                                         </span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="f-copy" data-source="lorem" data-type="form">
+                                        <span class="f-copy-label">Form</span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="f-copy" data-source="lorem" data-type="table">
+                                        <span class="f-copy-label">Table</span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="f-copy" data-source="lorem" data-type="code">
+                                        <span class="f-copy-label">Code</span>
                                     </button>
                                 </div>
                             </div>
