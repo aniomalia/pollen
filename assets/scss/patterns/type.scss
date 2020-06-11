@@ -1,4 +1,4 @@
-$font-1: "Roboto Mono";
+$font-1: "JetBrains Mono";
 
 :root {
     font-size: 16px;
@@ -16,4 +16,20 @@ $font-1: "Roboto Mono";
 h2 {
     font-size: 16px;
     font-weight: 500;
+}
+
+.type-content {
+    @include vgap(12px);
+    ul {
+        list-style: none;
+        @include vgap(10px);
+        > li {
+            display: flex;
+            &::before {
+                content: "->";
+                margin-right: 8px;
+                flex: 0 0 auto;
+            }
+        }
+    }
 }

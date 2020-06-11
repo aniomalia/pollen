@@ -1,7 +1,8 @@
 a {
     @include ease;
 
-    &:hover {
+    &:hover,
+    &:focus {
         opacity: 0.8;
     }
 }
@@ -22,7 +23,9 @@ a {
         margin-left: auto;
     }
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         @include dark-frame-hover;
     }
 }
@@ -31,7 +34,8 @@ a {
     .a-button {
         transition-duration: 0;
     }
-    &:hover {
+    &:hover,
+    &:focus {
         .a-button:hover {
             opacity: 1;
             background-color: #333;
@@ -65,6 +69,22 @@ button:not(.f-images),
         box-shadow: none;
         .a-button {
             @include dark-frame-hover;
+        }
+    }
+}
+
+.a-icon {
+    padding: 10px;
+    display: inline-flex;
+}
+
+.n-main {
+    a {
+        @extend .a-icon;
+    }
+    li.current-menu-item {
+        > a {
+            font-weight: bold;
         }
     }
 }

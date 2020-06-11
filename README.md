@@ -1,3 +1,5 @@
-# Pollen 0.1
+# Pollen 0.9
 
-Still a work in progress. I need this myself, so I'm making it easy for me. All hard-working bees are welcome!
+Sample content for websites. 
+
+Lorem ipsum text. Dummy images, placeholders. Stuff you would need to test out a website. You can just take it from here.

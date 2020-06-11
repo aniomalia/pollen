@@ -1,3 +1,7 @@
+.g-main {
+    @include vgap(50px);
+}
+
 .m-section {
     .a-button {
         width: 100%;
