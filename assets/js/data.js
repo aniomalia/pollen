@@ -85,32 +85,50 @@ Duis eu ultricies dui. Etiam convallis diam ac consequat ullamcorper. Vestibulum
 
 Nullam lobortis ac urna imperdiet venenatis. Nam quis malesuada tellus. Curabitur mollis elementum erat vitae molestie. Pellentesque malesuada augue consectetur elit tempor pellentesque. Morbi bibendum posuere mauris, auctor fermentum odio tincidunt ac. Integer vitae tristique.`,
         listUnordered: `<ul>
-    <li>Lorem</li>
-    <li>Ipsum</li>
-    <li>Dolor</li>
+    <li>Vestibulum ut magna</li>
+    <li>Sed vitae orci eu</li>
+    <li>Quisque imperdiet, mi quis pulvinar</li>
+    <li>Nam malesuada fermentum enim</li>
+    <li>Suspendisse eget finibus</li>
+    <li>Donec tempus sollicitudin aliquam</li>
 </ul>`,
         listOrdered: `<ol>
-    <li>Lorem</li>
-    <li>Ipsum</li>
-    <li>Dolor</li>
+    <li>Cras eleifend</li>
+    <li>Praesent luctus tortor</li>
+    <li>Nam dui nisl</li>
+    <li>Aliquam ac commodo justo</li>
+    <li>Etiam eget blandit</li>
 </ol>`,
-        listMixed: `<ul>
-    <li>Lorem</li>
-    <li>Ipsum</li>
-    <li>Dolor</li>
+        listMixed: `<ol>
+    <li>Cras eleifend</li>
+    <li>Praesent luctus tortor</li>
+    <ul>
+        <li>Quisque imperdiet, mi quis pulvinar</li>
+        <ol>
+            <li>Sed vitae orci eu</li>
+            <li>Vestibulum ut magna</li>
+        </ol>
+        <li>Nam malesuada fermentum enim</li>
+        <li>Suspendisse eget finibus</li>
+    </ul>
+    <li>Nam dui nisl</li>
+    <li>Aliquam ac commodo justo</li>
     <ol>
-        <li>Lorem</li>
-        <li>Ipsum</li>
-        <ul>
-            <li>Hey there</li>
-        </ul>
-        <li>Dolor</li>
+        <li>Etiam libero ipsum</li>
+        <li>Ut vestibulum elementum</li>
+        <li>Class aptent</li>
     </ol>
-    <li>Hey</li>
-</ul>`,
-        textParagraphs: `<p>Paragraph 1</p>
-<p>Paragraph 2</p>
-<p>Paragraph 3</p>`,
+    <li>Etiam eget blandit</li>
+</ol>`,
+        textParagraphs: `<p>Nam augue libero, cursus nec magna eget, efficitur tempus erat. Donec non sapien a ipsum molestie rhoncus. Vivamus placerat diam vel sapien aliquam facilisis. Nullam aliquet, dui id ultrices gravida, massa velit eleifend eros, ac
+placerat felis lacus id justo. Pellentesque diam sem, scelerisque et commodo a, auctor id sem. Aliquam non nisi maximus,
+facilisis elit non, mollis turpis.</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin iaculis eros a
+vehicula consequat.</p>
+
+<p>Sed varius magna arcu, sit amet malesuada quam auctor vitae. Maecenas odio sem, venenatis ut enim et, tempus tincidunt
+massa. Aliquam pulvinar turpis et augue vulputate, id auctor ligula pulvinar.</p>`,
         textHeadings: `<h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
@@ -118,35 +136,119 @@ Nullam lobortis ac urna imperdiet venenatis. Nam quis malesuada tellus. Curabitu
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>`,
         textMixed: `<h1>Heading 1</h1>
-<p>Paragraph 1</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin iaculis eros a vehicula consequat.</p>
+
 <h2>Heading 2</h2>
-<p>Paragraph 1</p>
-<p>Paragraph 1</p>
+
+<p>Nam augue libero, cursus nec magna eget, efficitur tempus erat. Donec non sapien a ipsum molestie rhoncus. Vivamus placerat diam vel sapien aliquam facilisis. Nullam aliquet, dui id ultrices gravida, massa velit eleifend eros, ac placerat felis lacus id justo.Pellentesque diam sem, scelerisque et commodo a, auctor id sem. Aliquam non nisi maximus, facilisis elit non, mollis turpis.</p>
+
+<p>Sed varius magna arcu, sit amet malesuada quam auctor vitae. Maecenas odio sem, venenatis ut enim et, tempus tincidunt massa. Aliquam pulvinar turpis et augue vulputate, id auctor ligula pulvinar.</p>
+
 <h3>Heading 3</h3>
-<p>Paragraph 1</p>
-<p>Paragraph 1</p>
+
+<p>Nunc placerat libero sed egestas vestibulum. Pellentesque sit amet tempor velit, id fermentum libero. Vivamus vitae arcu nunc. Duis ipsum felis, mattis vel lacinia egestas, consequat sed nisi. Morbi vel felis tortor. Suspendisse faucibus urna eu est volutpat suscipit. In hac habitasse platea dictumst.</p>
+
+<h3>Heading 3</h3>
+
+<p>Mauris tristique dui at dignissim pretium. Nulla condimentum scelerisque efficitur. Vestibulum vitae justo semper, imperdiet lacus in, dapibus massa.</p>
+
 <h4>Heading 4</h4>
-<p>Paragraph 1</p>
-<p>Paragraph 1</p>
-<h5>Heading 5</h5>
-<p>Paragraph 1</p>
-<p>Paragraph 1</p>
-<h6>Heading 6</h6>
-<p>Paragraph 1</p>
-<p>Paragraph 1</p>`,
+
+<p>Maecenas sollicitudin mi nec laoreet rutrum. Etiam id rutrum magna. Phasellus vestibulum felis ut laoreet hendrerit. Phasellus augue ante, tincidunt quis tempor placerat, dapibus et enim. Etiam gravida rutrum diam eu tempus.</p>
+
+<p>Quisque rhoncus lectus diam, a feugiat ipsum porttitor vel. Duis porttitor arcu laoreet nunc efficitur convallis sed ut lorem. Quisque vel ex felis. Sed malesuada dictum tortor, eu volutpat lectus viverra fermentum. Integer scelerisque condimentum nisl. Fusce auctor id nisi non vulputate.</p>
+
+<h2>Heading 2</h2>
+
+<p>Phasellus suscipit laoreet luctus. Nulla interdum ultricies risus, vel gravida urna porttitor in. Vestibulum id hendrerit leo.</p>
+
+<h3>Heading 3</h3>
+
+<p>Etiam mattis consectetur neque, sit amet tincidunt nisi tincidunt vel. Vestibulum sapien neque, condimentum at placerat non, viverra vitae elit. In semper enim eget tortor rhoncus varius. Sed ut ipsum posuere, vestibulum augue consectetur, rhoncus lectus. Etiam pretium, nunc ac sagittis venenatis, velit justo viverra urna, vel hendrerit turpis velit vel massa.</p>
+
+<p>Fusce eget tempor erat, non finibus odio. Phasellus erat arcu, scelerisque eu mi in, ultrices imperdiet lectus. Phasellus faucibus sapien sit amet velit eleifend, vitae fermentum tellus rhoncus. Nulla varius tristique blandit. Proin metus neque, rutrum in feugiat ac, vehicula quis orci.</p>
+
+<h3>Heading 3</h3>
+
+<p>In facilisis feugiat urna, nec elementum justo tincidunt id. Aliquam mattis erat eget lectus convallis, nec interdum tortor dictum. Integer velit augue, dictum ut ex quis, tincidunt pulvinar libero. Curabitur faucibus libero quis elit faucibus, et euismod nisl tristique. Mauris ut libero et purus pellentesque maximus convallis ut nunc.</p>
+
+<p>Nulla dictum maximus lectus eu elementum. Sed erat tortor, ultricies non convallis ac, placerat sit amet ligula. Integer convallis ex id eros hendrerit, eu vestibulum augue lacinia.</p>`,
         form: `<form action="" method="post">
     <label>
-        <span>Hey there</span>
-        <input type="text" placeholder="Your name" name="name">
+        <span>Full Name</span>
+        <input type="text" name="name" id="name" placeholder="Your name">
     </label>
+    <label>
+        <span>Email</span>
+        <input type="email" name="email" id="email" placeholder="Your Email">
+    </label>
+    <label>
+        <span>Message</span>
+        <textarea name="message" id="message"></textarea>
+    </label>
+    <label>
+        <input type="checkbox" name="agreement" id="agreement">
+        <span>I agree to the <a href="#">Terms and Conditions</a></span>
+    </label>
+    <div>
+        <input type="submit" value="Send">
+    </div>
 </form>`,
         table: `<table>
-    <tr>
-
-    </tr>
+    <caption>Integer dapibus, lacus sed facilisis tincidunt.</caption>
+    <thead>
+        <tr>
+            <th>Etiam consectetur</th>
+            <th>Nulla ligula</th>
+            <th>Rhoncus</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Maecenas</td>
+            <td>Feugiat</td>
+            <td>48,000</td>
+        </tr>
+        <tr>
+            <td>In hac</td>
+            <td>Egestas</td>
+            <td>194,000</td>
+        </tr>
+        <tr>
+            <td>Proin tincidunt</td>
+            <td>Fermentum</td>
+            <td>13,500</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Sed metus</td>
+            <td>Non erat</td>
+            <td>255,500</td>
+        </tr>
+    </tfoot>
 </table>`,
         inline: `<span>span</span> <em>em</em> <strong>strong</strong> <del>del</del> <u>u</u>`,
-        code: `<pre>pre</pre>`,
+        code: `<pre>
+    <code>
+    document.querySelectorAll('.f-copy').forEach(el => {
+        let label = el.querySelector('.f-copy-label');
+        el.querySelectorAll('.f-copy-overlays span').forEach(span => {
+            span.addEventListener('mouseenter', () => {
+                let newLabel = span.dataset.label;
+                label.innerText = newLabel;
+            });
+            span.addEventListener('mouseleave', () => {
+                let newLabel = label.dataset.label;
+                label.innerText = newLabel;
+            });
+        });
+    });
+    </code>
+</pre>
+
+<p><kbd>knd</kbd> <samp>samp</samp> <var>var</var></p>`,
     }
 };
 
