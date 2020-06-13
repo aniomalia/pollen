@@ -15,7 +15,7 @@ $font-1: "JetBrains Mono";
 
 h2 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .type-content {
@@ -24,7 +24,6 @@ h2 {
         list-style: none;
         @include vgap(10px);
         > li {
-            display: flex;
             &::before {
                 margin-right: 8px;
                 flex: 0 0 auto;
@@ -46,5 +45,8 @@ h2 {
                 content: counter(ordered-list) ")";
             }
         }
+    }
+    a {
+        text-decoration: underline;
     }
 }
