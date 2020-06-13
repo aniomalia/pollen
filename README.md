@@ -1,4 +1,4 @@
-# Pollen 0.9
+# Pollen 1.0
 
 Sample content for websites. 
 
