@@ -20,15 +20,30 @@ h2 {
 
 .type-content {
     @include vgap(12px);
-    ul {
+    ul, ol {
         list-style: none;
         @include vgap(10px);
         > li {
             display: flex;
             &::before {
-                content: "->";
                 margin-right: 8px;
                 flex: 0 0 auto;
+            }
+        }
+    }
+    ul {
+        > li {
+            &::before {
+                content: "->";
+            }
+        }
+    }
+    ol {
+        counter-reset: ordered-list;
+        > li {
+            counter-increment: ordered-list;
+            &::before {
+                content: counter(ordered-list) ")";
             }
         }
     }
